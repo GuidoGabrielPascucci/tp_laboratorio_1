@@ -4,12 +4,7 @@
 #include "Employee.h"
 #include "Controller.h"
 #include "parser.h"
-
 #include "Inputs.h"
-
-#define ID 1001
-#define SIZE_NAME 128
-#define SIZE_INT 11
 
 
 /** \brief Carga los datos de los empleados desde el archivo data.csv (modo texto).

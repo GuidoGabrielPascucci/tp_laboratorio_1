@@ -11,6 +11,8 @@ int main() {
 
     LinkedList* listaEmpleados = ll_newLinkedList();
     controlador_menuPrincipal(listaEmpleados);
+    ll_deleteLinkedList(listaEmpleados);
+
 
     return 0;
 }
